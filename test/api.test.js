@@ -12,7 +12,7 @@ describe('Indexroute', () => {
        .end((err, res) => {
              (res).should.have.status(200);
              (res.text).should.be.a('string');
-             (res.text).should.equal('Hi..');
+             (res.text).should.equal('Welcome to CI/CD with AWS..');
              done();
           });
        });
