@@ -17,8 +17,14 @@ npm install
 #install migrate Mongo Golbally 
 npm i migrate-mongo -g
 
+#install mocha Golbally 
+npm i mocha -g
+
 #migration call
 migrate-mongo up
+
+#test cases checking
+npm test
 
 #start our node app in the background
 node app.js > app.out.log 2> app.err.log < /dev/null &  

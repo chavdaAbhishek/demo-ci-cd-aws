@@ -18,7 +18,7 @@ mongoose.connect('mongodb+srv://test:test123@express-app.x93vr.mongodb.net/expre
   });
 
 app.get('/', (req, res) => {
-  res.send('<h1>Express Demo App</h1> <h4>Message: Success Again</h4> <p>Version 2.0</p>');
+  res.send('Welcome to CI/CD with AWS..');
 })
 
 app.get('/products', (req, res) => {
@@ -37,3 +37,6 @@ app.get('/products', (req, res) => {
 app.listen(port, ()=> {
   console.log(`Demo app is up and listening to port: ${port}`);
 });
+
+
+module.exports = app;
