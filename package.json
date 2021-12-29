@@ -5,7 +5,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha ./test/api.test.js",
+    "test": "mocha ./test/api.test.js --timeout 5000",
     "start": "node app.js"
   },
   "devDependencies": {
