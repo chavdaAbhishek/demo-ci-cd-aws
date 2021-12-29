@@ -14,5 +14,11 @@ export NVM_DIR="$HOME/.nvm"
 #install node modules
 npm install
 
+#install migrate Mongo Golbally 
+npm i migrate-mongo -g
+
+#migration call
+migrate-mongo up
+
 #start our node app in the background
-node app.js > app.out.log 2> app.err.log < /dev/null & 
+node app.js > app.out.log 2> app.err.log < /dev/null &  
